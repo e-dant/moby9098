@@ -9,9 +9,9 @@ SYNOPSIS
         Show this help and exit.
 
 DESCRIPTION
-    Provides a method for uniquely identifying a process from without pidfile cooperation or
-    similar. The first argument is intended to be any unique value. It is otherwise ignored. It
-    exists solely to make this process uniue, in the eyes of process monitoring tools. Maintaining
+    A tool for uniquely identifying a process without pidfile cooperation or similar.
+    The first argument is intended to be any unique value. It is otherwise ignored. It exists
+    solely to make the child process uniue, in the eyes of process monitoring tools. Maintaining
     PID files may work better in some cases, especially for daemons. For the "one-off" programs,
     like common Unix tools, this might work better. Spawning a (potentially long-running) `grep`,
     killing the docker exec context it spawned from, and expecting it to go away, is not going to
