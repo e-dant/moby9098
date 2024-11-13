@@ -1,0 +1,18 @@
+[package]
+name = "moby9098"
+version = "0.1.0"
+edition = "2021"
+authors = ["Will <edant.io@protonmail.com>"]
+description = "Spawn a uniquely `ps`-identifiable process"
+documentation = "https://github.com/e-dant/moby9098"
+homepage = "https://github.com/e-dant/moby9098"
+keywords = ["cli", "docker"]
+categories = [
+  "command-line-interface",
+  "command-line-utilities",
+]
+license = "MIT OR Apache-2.0"
+readme = "readme.md"
+repository = "https://github.com/e-dant/moby9098"
+
+[dependencies]
